@@ -1,0 +1,37 @@
+html,
+body{
+	background-color: #001218;
+	color: white;
+}
+
+#restart{
+	display:none;
+}
+
+#question {
+	margin-bottom:3rem;
+}
+
+#options {
+	background-color : #d8d3f9;
+	margin-top:3rem;
+	border-radius: 6px;
+	box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+	padding: 2px 2px;
+	color:black;
+	cursor:pointer;
+	transition: 0.3s;
+}
+
+li:hover{
+	background-color:grey;
+	color:white;
+	transition: 0.3s;
+}
+
+h4 {
+	display:inline-block;
+}
